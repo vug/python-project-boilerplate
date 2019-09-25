@@ -1,7 +1,7 @@
-from helpers import get_planet
+from .helpers import get_planet
 
 
-def hello(greeted_person: str) -> str:
+def hello(greeted_person: str) -> None:
     print(f"Hello, {greeted_person}!")
 
 
