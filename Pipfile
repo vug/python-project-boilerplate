@@ -5,9 +5,9 @@ verify_ssl = true
 
 [dev-packages]
 black = "*"
-pyre-check = "*"
+mypy = "*"
 flake8 = "*"
-pytest = "*"
+pytest = "==5.0.1"
 
 [packages]
 
