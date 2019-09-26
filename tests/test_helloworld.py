@@ -1,5 +1,5 @@
-from helloworld import helloworld
+from helloworld import main_module
 
 
 def test_hello():
-    assert helloworld.hello("World") == "Hello, World!"
+    assert main_module.hello("World") == "Hello, World!"
