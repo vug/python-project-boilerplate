@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d58b788b289c4c96e7c532c2feeec0d6d43c84def4f07485ab0cc2c0a27075ec"
+            "sha256": "c77b65016c6a7c4ba9b2425e92427e81b0380ef59a8599a86c6c29112b3da88b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,7 +15,12 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "helloworld": {
+            "editable": true,
+            "path": "."
+        }
+    },
     "develop": {
         "appdirs": {
             "hashes": [

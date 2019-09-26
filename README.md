@@ -23,7 +23,7 @@ Skeleton code for a new Python project.
     - [Python \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     - [PlantUML \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) (requires GraphViz) for software design with UML diagrams
       - Needs [Graphviz](https://graphviz.gitlab.io/) to be installed and in `PATH` to produce diagrams other than sequence
-      - http://plantuml.com has lots of diagram examples
+      - [PlanetUML](http://plantuml.com) has lots of diagram examples
     - [Better Comments \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
   - Vim. When not having access to my desktop/laptop. For example, when SSH'ing to my devserver from iPad.
 
@@ -35,6 +35,7 @@ Skeleton code for a new Python project.
   - if `pipenv` does not exist in base Python distribution install it via `pip install pipenv`
   - `pipenv install --dev --pre` to create virtual environment for the project under `~/.virtualenvs/PROJECT_NAME-hash` and install developer dependencies. (Currently `--pre` is needed for black because its version is less then `1`.)
   - to activate project environment `pipenv shell`
+  - (note that the project itself is in "packages" of Pipfile, which runs `pip install -e .` with above command. That installs the project as a module to virtual environment too. It is required by `pytest`.)
 - `git init` to initialize a git repo
 - for VS Code
   - set `python.pythonPath` setting (TODO: figure out the right way of doing this.)
