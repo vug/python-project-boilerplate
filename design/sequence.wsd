@@ -1,0 +1,7 @@
+@startuml A History of Liking
+actor Alice
+actor Bob
+
+Alice -> Bob: likes
+Bob -> Alice: likes
+@enduml

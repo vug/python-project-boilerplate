@@ -22,6 +22,9 @@ Skeleton code for a new Python project.
   - VS Code with following extensions. As the main IDE.
     - [Python \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     - [PlantUML \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) (requires GraphViz) for software design with UML diagrams
+      - Needs [Graphviz](https://graphviz.gitlab.io/) to be installed and in `PATH` to produce diagrams other than sequence
+      - http://plantuml.com has lots of diagram examples
+    - [Better Comments \- Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
   - Vim. When not having access to my desktop/laptop. For example, when SSH'ing to my devserver from iPad.
 
 ## Usage
