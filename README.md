@@ -34,5 +34,11 @@ Skeleton code for a new Python project.
   - to activate project environment `pipenv shell`
 - `git init` to initialize a git repo
 - for VS Code
-  - set `python.pythonPath` setting
+  - set `python.pythonPath` setting (TODO: figure out the right way of doing this.)
   - install following extensions if not already installed
+- Runing unittests
+  - CLI: Run either `pytest` or `python -m pytest` from project root
+    - (The latter puts project root to `sys.path`)
+    - `python -m pytest tests/ --collect-only` command to only discover tests
+  - VS Code: Tests can be discovered and run from the "Tests" tab. Individual tests can be run from the opened file directly.
+    - (Added an `__init__.py` file in `tests/` folder to turn it into a package (which can do imports from sibling packages). It shouldn't be needed but the way test discovery mechanism works in VS Code Python extension requires that. See [1](https://stackoverflow.com/questions/10253826/path-issue-with-pytest-importerror-no-module-named-yadayadayada), [2](https://github.com/microsoft/vscode-python/issues/6347) )
