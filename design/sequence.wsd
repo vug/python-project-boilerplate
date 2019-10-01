@@ -1,4 +1,6 @@
 @startuml A History of Liking
+skinparam shadowing false
+
 actor Alice
 actor Bob
 

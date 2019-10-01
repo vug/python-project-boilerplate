@@ -1,4 +1,6 @@
 @startuml Example Class Diagram
+skinparam shadowing false
+
 class Dummy1 {
  -field1
  #field2
